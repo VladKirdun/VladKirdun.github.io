@@ -32,10 +32,6 @@ $(document).ready(function(){
 
 var html = document.documentElement;
 
-alert("screen.width x screen.height: " + screen.width + "x" + screen.height); 
-alert("clientWidth x clientHeight: " + html.clientWidth + "x" + html.clientHeight);
-
-
 function setHeight(elem){
 	elem.style.minHeight = html.clientHeight + "px";
 }
