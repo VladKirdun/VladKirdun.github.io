@@ -1,5 +1,5 @@
 var html = document.documentElement;
-
+alert(screen.width);
 function setHeight(elem){
 	elem.style.minHeight = html.clientHeight + "px";
 }
