@@ -2,79 +2,349 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>PixelPlex</title>
+	<title>Startup</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<script src="js/jquery-1.8.1.min.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 </head>
 <body>
 	<div class="transparency"></div>
 	<nav class="nav-menu">
-		<ul class="nav-menu__ul">
-			<li><a href="#increase-conversion">Увеличиваем конверсию</a></li>
-			<li><a href="#principle-of-operation">Принцип работы</a></li>
-			<li><a href="#number-one">№1 в Беларуси</a></li>
-			<li><a href="#">О маячке</a></li>
-			<li><a href="#">Ваш бизнес</a></li>
-			<li><a href="#">Контакты</a></li>
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">PORTFOLIO</a></li>
+			<li><a href="#">BLOG</a></li>
+			<li><a href="#">PAGES</a></li>
+			<li><a href="#">FEATURES</a></li>
+			<li><a href="#">MEGA MENU</a></li>
+			<li><a href="#">CONTACT</a></li>
 		</ul>
 	</nav>
-	<header>
-		<img src="images/logo.png" class="logo" alt="logo" height="20px" width="auto">
-		<ul class="menu">
-			<li><a href="#increase-conversion">Увеличиваем конверсию</a></li>
-			<li><a href="#principle-of-operation">Принцип работы</a></li>
-			<li><a href="#number-one">№1 в Беларуси</a></li>
-			<li><a href="#">О маячке</a></li>
-			<li><a href="#">Ваш бизнес</a></li>
-			<li><a href="#">Контакты</a></li>
-		</ul>
-	</header>
-	<main>
-		<div class="increase-conversion" id="increase-conversion">
-			
-			<div class="right-wrap">
-				<h2>КАК ПОВЫСИТЬ ПОСЕЩАЕМОСТЬ МАГАЗИНА НА 15%</h2>
-				<img src="images/iphone.png" alt="iphone">
-				<p><span>Уникальная и инновационная технология для Беларуси.</span> Отправляйте автоматически любому человеку в радиусе 5-ти метров вокруг вашего магазина <span>сообщения о скидках и акциях прямо в его смартфон!</span></p>
-				<p>Отслеживайте поведение внутри помещения, зонируйте ваш магазин, сообщайте об акциях в том отделе, где находится посетитель.</p>
-				<p><span>Система полностью автоматизированна и не требует времени сотрудников на обслуживание.</span></p>
-				<button>Подробнее о системе iBeacon</button>
-			</div>
-			<div class="left-wrap">
-				<img src="images/iphone.png" alt="iphone">
-				<img src="images/circle.png" alt="circle">
-			</div>
-		</div>
-		<div class="principle-of-operation" id="principle-of-operation">
-			<div class="left-wrap">
-				<h2>КАК ЭТО РАБОТАЕТ</h2>
-				<img src="images/dali&picasso.png" alt="dali&picasso" class="dali">
-				<img src="images/street.png" alt="street" class="street">
-				<button>Хочу так же</button>
-			</div>
-			<div class="right-wrap">
-				<img src="images/dali&picasso.png" alt="dali&picasso">
-				<button>Хочу так же</button>
-			</div>
-		</div>
-		<div class="number-one" id="number-one">
-			<div class="left-wrap">
-				<h2>ПЕРВЫЕ ПРОЕКТЫ В БЕЛАРУСИ С ТЕХНОЛОГИЕЙ iBEACON</h2>
-				<p>Здесь будет расписано использование маячков в реальном проекте. В Минске проходит 22 Международный специализированный форум по информационным и банковским технологиям - "ТИБО-2015". Из нового также стоит упомянуть v-banking - универсальное мобильное приложение, которое позволяет объединить в один аккаунт все свои банковские карты и управлять ими со смартфона.</p>
-				<a href="#">Посмотреть еще проект</a>
-			</div>
-			<div class="right-wrap">
-				<div class="image-wrap">
-					<img src="images/windows.png" alt="windows">
+	<div class="home" id="home">
+		<div class="home__wrap">
+			<div class="home__wrap-block">
+				<h4>WHAT ARE YOU WAITING FOR?</h4>
+				<h1>LET'S BE CREATIVE!</h1>
+				<h3><strong><span>S</span>tartuprr,</strong> NEXT GENERATION & HIGHLY FLEXIBLE WORDPRESS THEME</h3><br/>
+				<div class="home__lines"></div>
+				<div class="rhombuses-wrap_left">
+					<div class="rhombus_one"></div>
+					<div class="rhombus_two"></div>
+					<div class="rhombus_three"></div>
 				</div>
-				<button>Заказать презентацию</button>
+				<h2><span>START</span> DOING THAT</h2>
+				<div class="rhombuses-wrap_right">
+					<div class="rhombus_three"></div>
+					<div class="rhombus_two"></div>
+					<div class="rhombus_one"></div>
+				</div>
+				<div class="home__lines"></div><br/>
+				<a class="home__link" href="#header">
+					<div class="home__link-circle_outer">
+						<div class="home__link-circle_inner">
+							<div class="home__link-arrow"></div>
+						</div>
+					</div>
+				</a>
 			</div>
 		</div>
-		<div class="about-the-lighthouse"></div>
-		<div class="your-business"></div>
-		<div class="contacts"></div>
-	</main>
-	<footer></footer>
+	</div>
+	<div class="header" id="header">
+		<div class="header__wrap">
+			<img src="images/startuprr.png" class="logo" alt="logo">
+			<img src="images/loupe.png" class="loupe" alt="loupe">
+			<ul>
+				<li>HOME</li>
+				<li>PORTFOLIO</li>
+				<li>BLOG</li>
+				<li>PAGES</li>
+				<li>FEATURES</li>
+				<li>MEGA MENU</li>
+				<li>CONTACT</li>
+			</ul>		
+		</div>
+	</div>
+	<div class="what-we-offer">
+		<div class="lines-left">
+			<div class="lines-left__block"></div>
+		</div>
+		<div class="rhombuses-wrap_left">
+			<div class="rhombus_one"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_three"></div>
+		</div>
+		<h2>WHAT WE <span>OFFER</span></h2>
+		<div class="rhombuses-wrap_right">
+			<div class="rhombus_three"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_one"></div>
+		</div>
+		<div class="lines-right">
+			<div class="lines-right__block"></div>
+		</div>
+		<p>We offer our customers the best services & solutions, this is our main services list</p>
+		<div id="offers"></div>
+	</div>
+	<div class="amazing-features">
+		<div class="rhombus_three">
+			<img src="images/key.png" alt="key">
+		</div>
+		<div class="rhombuses-wrap_left">
+			<div class="rhombus_one"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_three"></div>
+		</div>
+		<h2>AMAZING <span>FEATURES</span></h2>
+		<div class="rhombuses-wrap_right">
+			<div class="rhombus_three"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_one"></div>
+		</div>
+		<p>With unlimited features that we offer, we promise it's possible to make everything that was impossible for you!</p>
+		<img src="images/ipods.png" alt="ipods">
+		<div class="amazing-features__features">
+			<ul>
+				<li>
+					<div>
+						<img src="images/comp2.png" alt="comp2">
+					</div>
+					<h3>RESPONSIVE & MULTIPURPOSE</h3>
+					<p>Proin in magna a ipsum viverra scelerisq enec turp, nunc vestibulum.</p>
+				</li>
+				<li>
+					<div>
+						<img src="images/moz2.png" alt="moz2">
+					</div>
+					<h3>EAZY CUSTOMIZATION</h3>
+					<p>Proin in magna a ipsum viverra scelerisq enec turp, nunc vestibulum.</p>
+				</li>
+				<li>
+					<div>
+						<img src="images/star.png" alt="star">
+					</div>
+					<h3>UNLIMITED FEATURES</h3>
+					<p>Proin in magna a ipsum viverra scelerisq enec turp, nunc vestibulum.</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="more-features">
+		<div id="features"></div>		
+	</div>
+	<div class="powerful-skills">
+		<div class="rhombus_three">
+			<img src="images/suitcase.png" alt="suitcase">
+		</div>
+		<div class="rhombuses-wrap_left">
+			<div class="rhombus_one"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_three"></div>
+		</div>
+		<h2>OUR POWERFUL <span>SKILLS</span></h2>
+		<div class="rhombuses-wrap_right">
+			<div class="rhombus_three"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_one"></div>
+		</div>
+		<p>We're good and experienced at different things and areas and we promise about quality of our works</p>
+		<div class="skills"></div>
+	</div>
+	<div class="sample-works">
+		<div class="lines-left">
+			<div class="lines-left__block"></div>
+		</div>
+		<div class="rhombuses-wrap_left">
+			<div class="rhombus_one"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_three"></div>
+		</div>
+		<h2>SAMPLE <span>WORKS</span></h2>
+		<div class="rhombuses-wrap_right">
+			<div class="rhombus_three"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_one"></div>
+		</div>
+		<div class="lines-right">
+			<div class="lines-right__block"></div>
+		</div>
+		<p>Let's take a look at some of the best of our works here, we love them and hope you too</p>
+		<div class="works"></div>
+		<button class="sample-works__button">VIEW ALL WORKS</button>
+	</div>
+	<div class="company-facts">
+		<div class="rhombus_three">
+			<img src="images/suitcase.png" alt="suitcase">
+		</div>
+		<div class="rhombuses-wrap_left">
+			<div class="rhombus_one"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_three"></div>
+		</div>
+		<h2>COMPANY <span>FACTS</span></h2>
+		<div class="rhombuses-wrap_right">
+			<div class="rhombus_three"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_one"></div>
+		</div>
+		<p>We do love to work and increase our counter numbers, this is what we've done till now</p>
+		<div class="facts"></div>
+	</div>
+	<div class="purchase">
+		<div class="purchase__wrap">
+			<p>ARE YOU SATISFIED WITH UNLIMITED FEATURES THAT WE OFFER?</p>
+			<button>CONTACT US NOW</button>
+			<button>PURCHASE IT NOW</button>
+		</div>
+	</div>
+	<div class="team-members">
+		<div class="team-members__arrow_left">
+			<div class="team-members__arrow_left-arrow"></div>
+		</div>
+		<div class="lines-left">
+			<div class="lines-left__block"></div>
+		</div>
+		<div class="rhombuses-wrap_left">
+			<div class="rhombus_one"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_three"></div>
+		</div>
+		<h2><span>TEAM</span> MEMBERS</h2>
+		<div class="rhombuses-wrap_right">
+			<div class="rhombus_three"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_one"></div>
+		</div>
+		<div class="lines-right">
+			<div class="lines-right__block"></div>
+		</div>
+		<div class="team-members__arrow_right">
+			<div class="team-members__arrow_right-arrow"></div>
+		</div>
+		<p>We're some creative people with powerful knowledge & awesome skills behind the scene bringing you the bests</p>
+		<div class="members"></div>
+	</div>
+	<div class="quotes">
+		<div class="rhombus_three">
+			<img src="images/quotes.png" alt="quotes">
+		</div>
+		<div class="quotes-list"></div>
+		<div class="quotes__arrow_left">
+			<div class="quotes__arrow_left-arrow"></div>
+		</div>
+		<div class="quotes__arrow_right">
+			<div class="quotes__arrow_right-arrow"></div>
+		</div>
+	</div>
+	<div class="clients">
+		<div class="clients__arrow_left">
+			<div class="clients__arrow_left-arrow"></div>
+		</div>
+		<div class="clients-list"></div>
+		<div class="clients__arrow_right">
+			<div class="clients__arrow_right-arrow"></div>
+		</div>
+	</div>
+	<div class="price-tables">
+		<div class="lines-left">
+			<div class="lines-left__block"></div>
+		</div>
+		<div class="rhombuses-wrap_left">
+			<div class="rhombus_one"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_three"></div>
+		</div>
+		<h2>REAL CHEAP <span>PRICES</span></h2>
+		<div class="rhombuses-wrap_right">
+			<div class="rhombus_three"></div>
+			<div class="rhombus_two"></div>
+			<div class="rhombus_one"></div>
+		</div>
+		<div class="lines-right">
+			<div class="lines-right__block"></div>
+		</div>
+		<p>We offer all our services in real low prices in comparison with similar companies</p>
+		<div class="prices"></div>
+	</div>
+	<div class="bubble">
+		<div class="bubble__wrap">
+			<p>UNIQUE! We Do <img src="images/heart.png" alt="heart"> It And Hope You Too</p>
+			<a href="#">PURCHASE IT NOW <img src="images/stroller.png" alt="stroller"></a>
+		</div>
+	</div>
+	<div class="footer">
+		<img src="images/startuprrDark.png" alt="startuprr">
+		<ul>
+			<li><a href="#"><img src="images/facebookWhite.png" alt="facebook"></a></li>
+			<li><a href="#"><img src="images/twitterWhite.png" alt="twitter"></a></li>
+			<li><a href="#"><img src="images/pinterest.png" alt="pinterest"></a></li>
+			<li><a href="#"><img src="images/wifi.png" alt="wifi"></a></li>
+			<li><a href="#"><img src="images/vimeoWhite.png" alt="vimeo"></a></li>
+			<li><a href="#"><img src="images/youtube.png" alt="youtube"></a></li>
+			<li><a href="#"><img src="images/linkedIn.png" alt="linkedin"></a></li>
+			<li><a href="#"><img src="images/dribbbleWhite.png" alt="dribbble"></a></li>
+			<li><a href="#"><img src="images/pizza.png" alt="pizza"></a></li>
+			<li><a href="#"><img src="images/picasa.png" alt="picasa"></a></li>
+			<li><a href="#"><img src="images/stumbleUpon.png" alt="snake"></a></li>
+		</ul>
+		<div class="geolocation">
+ 			<div id="geolocation__map"></div>
+ 			<form action="index.php">
+ 				<input type="text" title="Name" placeholder="Name" value="Name">
+ 				<input type="text" title="Email Addres" placeholder="Email Addres" value="Email Addres">
+ 				<textarea title="Message..." placeholder="Message..."></textarea>
+ 				<input type="submit" value="SUBMIT MESSAGE">
+ 			</form>
+ 			<a href="#home">
+				<div class="geolocation__upArrowWrap">
+					<div class="geolocation__upArrowWrap-upArrow">
+						<div class="geolocation__upArrowWrap-upArrow-arrow"></div>
+					</div>
+				</div>
+			</a>			
+		</div>			
+		<p>Copyright © 2017 Startuprr, All Rights Reserved.</p>
+	</div>
+	<!--[if lt IE 9]>  
+	  <script>document.body.innerHTML = "";</script>
+	  <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>
+		  <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'>
+			  <a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'>
+			  	<img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/>
+			  </a>
+		  </div>
+		  <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
+			  <div style='width: 75px; float: left;'>
+			  	<img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/>
+			  </div>
+			  <div style='width: 275px; float: left; font-family: Arial, sans-serif;'>
+			  	<div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>You are using an outdated browser</div>        
+			  	<div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>For a better experience using this site, please upgrade to a modern web browser.</div>     
+			  </div>
+			  <div style='width: 75px; float: left;'>
+			  	<a href='http://www.firefox.com' target='_blank'>
+			  		<img src='http://www.educationalappstore.com/images/upload/8922-logo-firefox-browser-for-android.png' style='border: none; margin-top: 15px;' width='50' height='50' alt='Get Firefox'/>
+			  	</a>
+			  </div>      
+			  <div style='width: 75px; float: left;'>
+				  <a href='https://yandex.ru/ie/' target='_blank'>
+				  	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Internet_Explorer_4_and_5_logo.svg/113px-Internet_Explorer_4_and_5_logo.svg.png' style='border: none; margin-top: 15px;' width='50' height='50' alt='Get Internet Explorer 11'/>
+				  </a>
+			  </div>      
+			  <div style='width: 73px; float: left;'>
+				  <a href='http://www.apple.com/safari/download/' target='_blank'>
+				  	<img src='http://www.asiavpn.net/wp-content/uploads/2014/01/safari_icon001.png' style='border: none; margin-top: 15px;' width='50' height='50' alt='Get Safari'/>
+				  </a>
+			  </div>      
+			  <div style='float: left;'>
+				  <a href='http://www.google.com/chrome' target='_blank'>
+				  	<img src='http://www.apkmirror.com/wp-content/themes/APKMirror/ap_resize/ap_resize.php?src=http%3A%2F%2Fwww.apkmirror.com%2Fwp-content%2Fuploads%2F2016%2F12%2F584bad12f3aba.png&w=96&h=96&q=100' style='border: none; margin-top: 15px;' width='50' height='50' alt='Get Google Chrome'/>
+				  </a>
+			  </div>   
+		  </div>  
+	  </div>  
+	  <![endif]-->
 	<script src="js/script.js"></script>
 </body>
 </html>
